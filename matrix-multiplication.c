@@ -58,9 +58,9 @@ int main()
     {
         for (int j = 0; j < 2; j++)  /*for individual elements within the rows*/
         {
-            for (int k = 0; k < 2; k++) /*for each element of the resultant matric*/
+            for (int m = 0; m < 2; m++) /*for each element of the resultant matric*/
             {
-                res[i][j] += mat1[i][k] * mat2[k][j];
+                res[i][j] += mat1[i][m] * mat2[m][j];
             }
         }
     }
