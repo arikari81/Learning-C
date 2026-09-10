@@ -24,8 +24,8 @@ int main()
         case 2:
             res = a - b;
             break;
-        case 3:
-            res = a * b;
+        case 1 + 2:
+        
             break;
         case 4:
             res = a / b;
