@@ -3,7 +3,7 @@
 #include <stdio.h>
 int main()
 {
-    int mat[2][2];  /*two rows and two columns*/
+    int mat[2][2];  /*two rows of two elements*/
     
     /*input*/
     printf("Enter the elements of the matrix: \n");
