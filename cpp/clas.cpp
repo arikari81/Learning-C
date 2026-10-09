@@ -9,13 +9,15 @@ class Book{
         string title;
         string author;
         int pagenum;
-//a constructor is a function that gets called
-//whenever an object is created of a class.eg:
 
         void costpr(){
             cout << "The price is: " << cost << endl;
 
         }  
+
+//a constructor is a function that gets called
+//whenever an object is created of a class.eg:
+
         Book(string atitle, string aauther,int apages,int acost){
             title = atitle;
             author = aauther;
