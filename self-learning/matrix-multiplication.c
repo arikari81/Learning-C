@@ -24,7 +24,7 @@ int main()
     printf("Enter the elements for the second matrix: \n");
     for (int i = 0;  i < 2; i++)
     {
-        for (int j = 0; j < 2; j++)
+        for (int j = 0; j < 2; j++) 
         {
             scanf("%d", &mat2[i][j]);
         }
@@ -52,7 +52,7 @@ int main()
         printf("\n");
     }
 
-    /*multiplying the matrices*/
+    /*multiplying the two matrices*/ 
 
     for (int i = 0; i < 2; i++) /*for each row*/
     {
