@@ -37,10 +37,12 @@ int main(void){
     char subst[10];
 
     printf("enter the main string: ");
-    scanf("%49s%*c", stri);
+    fgets(stri, sizeof(stri), stdin);
+    stri[strcspn(stri, "\n")] = '\0';
 
     printf("enter the searchable string: ");
-    scanf(" %9s%*c", subst);
+    fgets(subst, sizeof(subst), stdin);
+    subst[strcspn(subst, "\n")] = '\0';
 
     int totcount = sub_str_count(stri, subst);
     printf("\ntotal nmber of occurences = %d\n", totcount);
