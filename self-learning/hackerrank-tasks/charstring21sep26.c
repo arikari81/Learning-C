@@ -12,7 +12,17 @@ In the last line print the sentence, sen.
 
 int main() 
 {
-
+    
+    char ch;
+    scanf(" %c", &ch);
+    char s[100];
+    scanf("%s\n", s);
+    char sen[100];
+    scanf("%[^\n]%*c", sen);
+    
+    printf("%c\n", ch);
+    printf("%s\n", s);
+    printf("%s\n", sen);
     
     return 0;
 }
