@@ -1,7 +1,7 @@
 //exp 8b
 //find the largest input out of multiple inputs
 
-#include <stdio.h>
+#include "stdio.h" //completely alright way of including header fils
 
 int main(){
     int n;
