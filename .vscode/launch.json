@@ -75,8 +75,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/abhipatnav/Learning-C/Learning-C",
-      "program": "/home/abhipatnav/Learning-C/Learning-C/build/Debug/outDebug",
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
