@@ -25,7 +25,10 @@ int checkRec(char st[], int right, int left){
 }
 
 int main(){
-    char word[] = "madame";
+    char word[100];
+    printf("enter the string: ");
+    scanf("%99[^\n]", word);
+    
     int len = 0;
 
     while (word[len] != '\0') {

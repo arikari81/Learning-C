@@ -11,7 +11,7 @@ int powRec(int a, int n){ // recursioin
     return a*powRec(a, n - 1);
 }
 
-int powLoop(int a, int n){
+int powLoop(int a, int n){ // loop
     int res = 1;
     for (int i = 0; i < n; i++){
         res *= a;
@@ -29,7 +29,7 @@ int main(){
     scanf("%d", &n);
 
     printf("the result computed via loop iteration: %d\n", powLoop(a, n));
-    printf("the result computed via recurion: %d\n", powLoop(a, n));
+    printf("the result computed via recurion: %d\n", powRec(a, n));
 
     return 0;
 }

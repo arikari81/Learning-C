@@ -5,16 +5,16 @@
 #include "stdio.h"
 
 int main(){
-    int n;
-    printf("enter the number of numbers u wish to enter: ");
+    //int n;
+    //printf("enter the number of numbers u wish to enter: ");
 
-    int num[n];
+    int num;
 
-    int i = 0;
-    while(i < n){
+    //int i = 0;
+    while(7==7){
         printf("enter num: ");
-        scanf("%d", &n);
-        if (n < 0){
+        scanf("%d", &num);
+        if (num < 0){
             printf("negative number encountered.\n");
             break;
         }

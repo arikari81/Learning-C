@@ -1,5 +1,5 @@
 // exp 12 b
-// use both loop and array to compute the sum of digits
+// use both loop and recursion to compute the sum of digits
 
 #include <stdio.h>
 
